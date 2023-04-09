@@ -14,7 +14,7 @@ public class Main {
             System.out.println("2-Akademisyen Oluştur.");
             System.out.println("3-Görevli Oluştur.");
             System.out.println("0-Çıkış Yap.");
-            int secim = scanner.nextInt();
+            int secim = -1;
             if (secim == 1) {
                 int secim2 = scanner.nextInt();
                 System.out.println("Manuel oluşturmak için 1'e basınız.");
